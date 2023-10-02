@@ -1,0 +1,15 @@
+.appContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  .mainHeader{
+    display: flex;
+    justify-content: center;
+  }
+  .serviceContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 5rem;
+  }
+}
